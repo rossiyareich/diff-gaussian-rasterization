@@ -12,7 +12,7 @@
 #ifndef CUDA_RASTERIZER_AUXILIARY_H_INCLUDED
 #define CUDA_RASTERIZER_AUXILIARY_H_INCLUDED
 
-#include "config.h"
+#include "config.cuh"
 #include "stdio.h"
 
 #define BLOCK_SIZE (BLOCK_X * BLOCK_Y)

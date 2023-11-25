@@ -9,8 +9,8 @@
  * For inquiries contact  george.drettakis@inria.fr
  */
 
-#include "backward.h"
-#include "auxiliary.h"
+#include "backward.cuh"
+#include "auxiliary.cuh"
 #include <cooperative_groups.h>
 #include <cooperative_groups/reduce.h>
 namespace cg = cooperative_groups;

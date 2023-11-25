@@ -9,7 +9,7 @@
  * For inquiries contact  george.drettakis@inria.fr
  */
 
-#include "rasterizer_impl.h"
+#include "rasterizer_impl.cuh"
 #include <iostream>
 #include <fstream>
 #include <algorithm>
@@ -26,9 +26,9 @@
 #include <cooperative_groups/reduce.h>
 namespace cg = cooperative_groups;
 
-#include "auxiliary.h"
-#include "forward.h"
-#include "backward.h"
+#include "auxiliary.cuh"
+#include "forward.cuh"
+#include "backward.cuh"
 
 // Helper function to find the next-highest bit of the MSB
 // on the CPU.
